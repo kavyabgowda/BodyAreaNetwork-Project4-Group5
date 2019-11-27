@@ -68,6 +68,6 @@ The specific sensor file (replacing sensor.py) and the device_id (number) have t
 
 $ python3 thermo.py 0
 
-- - - -
+- - - 
 
 
