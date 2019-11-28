@@ -39,35 +39,39 @@ The **BodyAreaNetwork-Project4-Group5** Code Folder can be placed in any Directo
 ## Cloud Server: 
 
 In the First PC run the below command in command prompt to start the Cloud Server
-
+```sh
 $ go run server.go
+```
 
 ## Edge Node: 
 
 In the two sepearate PCs run the below commands in command prompt to start the Edge Node in each PC
-
-$ python3 edge.py *[body-id]* *[server-ip]* *[server-port]*
-
+```sh
+$ python3 edge.py [body-id] [server-ip] [server-port]
+```
 The body-id, server-ip, and server-port have to be filled in with values, e.g:
-
+```sh
 $ python3 edge.py alice 123.45.67.89 80
+```
 
 ## Logger: 
 
 Execute the below command in Edge Node PCs command prompt
-
+```sh
 $ python3 logger.py
+```
 
 ## Sensors: 
 
 Exceute the below command in Edge Node PCs by opening seperate command prompts for each Sensor file
-
-$ python3 *[sensor.py]* *[device_id]*
+```sh
+$ python3 [sensor.py] [device_id]
+```
 
 The specific sensor file (replacing sensor.py) and the device_id (number) have to be filled in with values, e.g.:
-
+```sh
 $ python3 thermo.py 0
-
+```
 - - - 
 
 
